@@ -1,6 +1,6 @@
 # decompiled claude code source
 
-- took this repo from someone's [X post](https://github.com/ghuntley/claude-code-source-code-deobfuscation). It was not working so i messed around with it and made changes until all the commands started working (required much more messing around to make it work than i thought)
+- got most of the code from this [rep](https://github.com/ghuntley/claude-code-source-code-deobfuscation). It was not working so i messed around with it and made changes until all the commands started working (required much more messing around to make it work than i thought)
 - the webpack compiled code is here: https://www.npmjs.com/package/@anthropic-ai/claude-code?activeTab=code
 
 ## Local
