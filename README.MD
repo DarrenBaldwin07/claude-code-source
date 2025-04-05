@@ -25,7 +25,13 @@ bun run build
 bun dist/src/cli.js version
 ```
 
-4. Ask claude a question
+4. Setup claude api key
+
+```bash
+export ANTHROPIC_API_KEY="your_api_key_here"
+```
+
+5. Ask claude a question
 
 ```bash
 bun dist/src/cli.js ask hello world
