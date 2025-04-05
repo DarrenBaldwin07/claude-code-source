@@ -20,7 +20,7 @@ bun run build
 3. Get version
 
 ```bash
-bun dist/src/cli.js ask hello world
+bun dist/src/cli.js version
 ```
 
 4. Ask claude a question
