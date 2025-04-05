@@ -153,8 +153,10 @@ async function initCLI(): Promise<void> {
       process.exit(1);
     }
 
+    const hasApiKey = process.env.ANTHROPIC_API_KEY;
+
     // Check if command requires authentication
-    if (command.requiresAuth && !authManager.isAuthenticated()) {
+    if (command.requiresAuth && !authManager.isAuthenticated() && !hasApiKey) {
       console.error(`Command '${commandName}' requires authentication.`);
       console.error('Please log in using the "claude-code login" command first.');
       process.exit(1);
